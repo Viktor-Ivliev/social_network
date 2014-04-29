@@ -12,21 +12,21 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :name %><br>
-    <%= f.text_field :name %>
+  <div class="input-group input-group-sm">
+  
+    <%= f.text_field :name, class:'form-control border_grin', placeholder:'Имя'%>
   </div>
-  <div class="field">
-    <%= f.label :family %><br>
-    <%= f.text_field :family %>
+  <div class="input-group input-group-sm">
+    
+    <%= f.text_field :family, class:'form-control border_grin', placeholder:'Фамилия' %>
   </div>
-  <div class="field">
-    <%= f.label :email_phone %><br>
-    <%= f.text_field :email_phone %>
+  <div class="input-group input-group-sm">
+    
+    <%= f.text_field :email_phone, class:'form-control border_grin', placeholder:'email или моб. телефон' %>
   </div>
-  <div class="field">
-    <%= f.label :password %><br>
-    <%= f.password_field :password %>
+  <div class="input-group input-group-sm">
+    
+    <%= f.password_field :password, class:'form-control border_grin', placeholder:'пароль' %>
   </div>
   <div class="actions">
     <%= f.submit %>
