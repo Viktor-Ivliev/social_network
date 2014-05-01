@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-SocialNetwork::Application.config.secret_key_base = '54a6070e28d08340d15f01b1c95dec0eb0cc9cd9774da99284d4afedace67c5d05f820dab598ef0dc2ccd5ab7c53459f1c20d526f7849a9c60a0753213c03b69'
+SocialNetwork::Application.config.secret_key_base = '06430b0e7d305b757fb2b426ea723ac80f80038e6730289d3d745da814256490416c48e5c9c223de9d93f9da6a31541f8df00243f35eae6339d06ebe12e839a9'
